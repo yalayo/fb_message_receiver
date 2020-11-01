@@ -1,4 +1,5 @@
 (ns main)
 
 (defn process_data [data]
-  (str data))
+  (let [result (str data)]
+    result))
